@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AwsIPCheckStrategy.cs" />
-    <Compile Include="CustomIpChecker.cs" />
+    <Compile Include="CustomIpCheckStrategy.cs" />
     <Compile Include="DynDnsIPCheckStrategy.cs" />
     <Compile Include="HelperMethods.cs" />
     <Compile Include="IIPChecker.cs" />
