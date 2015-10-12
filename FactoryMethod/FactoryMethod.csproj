@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{533CD2BB-D714-410A-A6EA-3EE15B909F7B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FactoryMethod</RootNamespace>
+    <AssemblyName>FactoryMethod</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AWSSDK, Version=2.3.47.0, Culture=neutral, PublicKeyToken=9f476d3089b52be3, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.2.3.47.0\lib\net45\AWSSDK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfigConfigurationFactory.cs" />
+    <Compile Include="AppConfig\AppConfigApiSettings.cs" />
+    <Compile Include="AppConfig\AppConfigFeedServiceSettings.cs" />
+    <Compile Include="AppConfig\AppConfigFeedSettings.cs" />
+    <Compile Include="AppConfig\AppConfigFilePublisherSettings.cs" />
+    <Compile Include="AppConfig\AppConfigOfflineClientSettings.cs" />
+    <Compile Include="AppConfig\AppConfigS3PublisherSettings.cs" />
+    <Compile Include="DynamoDBConfigurationFactory.cs" />
+    <Compile Include="DynamoDB\DynamoDBApiSettings.cs" />
+    <Compile Include="DynamoDB\DynamoDBFeedServiceSettings.cs" />
+    <Compile Include="DynamoDB\DynamoDBFeedSettings.cs" />
+    <Compile Include="DynamoDB\DynamoDBFilePublisherSettings.cs" />
+    <Compile Include="DynamoDB\DynamoDBOfflineClientSettings.cs" />
+    <Compile Include="DynamoDB\DynamoDBS3PublisherSettings.cs" />
+    <Compile Include="DynamoDB\DynamoDBSettingsBase.cs" />
+    <Compile Include="IApiSettings.cs" />
+    <Compile Include="IConfigurationFactory.cs" />
+    <Compile Include="IFeedServiceSettings.cs" />
+    <Compile Include="IFeedSettings.cs" />
+    <Compile Include="IFilePublisherSettings.cs" />
+    <Compile Include="IOfflineClientSettings.cs" />
+    <Compile Include="IS3PublisherSettings.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
