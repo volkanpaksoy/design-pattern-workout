@@ -49,7 +49,7 @@
   <ItemGroup>
     <Compile Include="AwsIPCheckStrategy.cs" />
     <Compile Include="CustomIpChecker.cs" />
-    <Compile Include="DynDns.cs" />
+    <Compile Include="DynDnsIPCheckStrategy.cs" />
     <Compile Include="HelperMethods.cs" />
     <Compile Include="IIPChecker.cs" />
     <Compile Include="Program.cs" />

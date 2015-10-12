@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    public class CustomIpChecker : IIpCheckStrategy
+    public class CustomIpCheckStrategy : IIpCheckStrategy
     {
         public string GetExternalIp()
         {

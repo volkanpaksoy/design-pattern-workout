@@ -13,13 +13,13 @@ namespace Strategy
         {
             IIpCheckStrategy ipChecker;
 
-            ipChecker = new DynDns();
+            ipChecker = new DynDnsIPCheckStrategy();
             Console.WriteLine(ipChecker.GetExternalIp());
 
             ipChecker = new AwsIPCheckStrategy();
             Console.WriteLine(ipChecker.GetExternalIp());
 
-            ipChecker = new CustomIpChecker();
+            ipChecker = new CustomIpCheckStrategy();
             Console.WriteLine(ipChecker.GetExternalIp());
 
             Console.ReadKey();
