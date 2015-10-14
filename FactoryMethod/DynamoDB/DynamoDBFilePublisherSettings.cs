@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethod.Config.AppConfig
+namespace AbstractFactory.Config.AppConfig
 {
     public class DynamoDBFilePublisherSettings : DynamoDBSettingsBase, IFilePublisherSettings
     {

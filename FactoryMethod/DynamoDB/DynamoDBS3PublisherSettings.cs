@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethod
+namespace AbstractFactory
 {
     public class DynamoDBS3PublisherSettings : DynamoDBSettingsBase, IS3PublisherSettings
     {

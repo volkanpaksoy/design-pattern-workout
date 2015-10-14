@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="FactoryMethod.AppConfigConfigurationFactory" BaseTypeListCollapsed="true">
+  <Class Name="AbstractFactory.AppConfigConfigurationFactory" BaseTypeListCollapsed="true">
     <Position X="0.5" Y="2.75" Width="4" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAACAAAAAAgAAAAAQAAAAAAAAAgQA=</HashCode>
@@ -8,7 +8,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.187" Collapsed="true" />
   </Class>
-  <Class Name="FactoryMethod.DynamoDBConfigurationFactory" BaseTypeListCollapsed="true">
+  <Class Name="AbstractFactory.DynamoDBConfigurationFactory" BaseTypeListCollapsed="true">
     <Position X="5.25" Y="2.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAAAAgAAACAAAAAAgAAAAAQAAAAAAAAAAQA=</HashCode>
@@ -16,7 +16,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Interface Name="FactoryMethod.IConfigurationFactory">
+  <Interface Name="AbstractFactory.IConfigurationFactory">
     <Position X="1.25" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAACAAAAAAgAAAAAQAAAAAAAAAAQA=</HashCode>

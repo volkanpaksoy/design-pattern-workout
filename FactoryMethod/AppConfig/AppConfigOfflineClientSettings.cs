@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethod
+namespace AbstractFactory
 {
     public class AppConfigOfflineClientSettings : IOfflineClientSettings
     {
