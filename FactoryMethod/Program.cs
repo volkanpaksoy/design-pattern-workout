@@ -22,7 +22,9 @@ namespace FactoryMethod
             // "The factory method takes a parameter that identifies the kind of object to create"
 
             var feedFormatter = feedFormatterFactory.CreateFeedFormatter();
-
+            // This is the actual factory method. Actual formatter (Atom10FeedFormatter or Rss20FeedFormatter)
+            // is created by the child class and we don't care which feed formatter we are dealing with 
+            // here as long as it's a SyndicationFeedFormatter
 
         }
     }
