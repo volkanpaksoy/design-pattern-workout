@@ -11,6 +11,7 @@ namespace FactoryMethod
 {
     public abstract class FeedFormatterFactory
     {
+        // Helper method to avoid hard-coding
         public static FeedFormatterFactory CreateFactory(SyndicationFeed feed, IFeedSettings feedSettings)
         {
             string feedFormat = feedSettings.FeedFormat;
@@ -22,6 +23,7 @@ namespace FactoryMethod
             }
         }
 
+        // Factory method
         public abstract SyndicationFeedFormatter CreateFeedFormatter();
     }
 
