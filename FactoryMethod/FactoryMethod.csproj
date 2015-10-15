@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfigFeedSettings.cs" />
+    <Compile Include="Dummy.cs" />
     <Compile Include="FeedFormatterFactory.cs" />
     <Compile Include="IFeedSettings.cs" />
     <Compile Include="Program.cs" />
@@ -53,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="FactoryMethod.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
