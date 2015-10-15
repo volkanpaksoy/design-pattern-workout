@@ -9,13 +9,6 @@ using System.Xml.Linq;
 
 namespace FactoryMethod
 {
-    /*
-    public interface IFeedFormatterFactory
-    {
-        SyndicationFeedFormatter CreateFeedFormatter();
-    }
-    */
-
     public abstract class FeedFormatterFactory
     {
         public static FeedFormatterFactory CreateFactory(SyndicationFeed feed, IFeedSettings feedSettings)
