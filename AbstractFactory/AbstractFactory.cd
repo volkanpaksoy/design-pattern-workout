@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="AbstractFactory.AppConfigConfigurationFactory" BaseTypeListCollapsed="true">
-    <Position X="0.5" Y="2.75" Width="4" />
+  <Class Name="AbstractFactory.AppConfigConfigurationFactory">
+    <Position X="0.5" Y="2.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAACAAAAAAgAAAAAQAAAAAAAAAgQA=</HashCode>
       <FileName>AppConfigConfigurationFactory.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.187" Collapsed="true" />
+    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="AbstractFactory.DynamoDBConfigurationFactory" BaseTypeListCollapsed="true">
-    <Position X="5.25" Y="2.75" Width="2.5" />
+  <Class Name="AbstractFactory.DynamoDBConfigurationFactory">
+    <Position X="3.75" Y="2.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAAAAgAAACAAAAAAgAAAAAQAAAAAAAAAAQA=</HashCode>
       <FileName>DynamoDBConfigurationFactory.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="AbstractFactory.IConfigurationFactory">
-    <Position X="1.25" Y="0.5" Width="2.75" />
+    <Position X="2.25" Y="0.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAACAAAAAAgAAAAAQAAAAAAAAAAQA=</HashCode>
       <FileName>IConfigurationFactory.cs</FileName>

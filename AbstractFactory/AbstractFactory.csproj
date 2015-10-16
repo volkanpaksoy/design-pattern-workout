@@ -74,9 +74,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram2.cd" />
-    <None Include="ClassDiagram3.cd" />
-    <None Include="ClassDiagram4.cd" />
+    <None Include="AbstractFactory.cd" />
+    <None Include="AbstractFactoryAndProducts.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

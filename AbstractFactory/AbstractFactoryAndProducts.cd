@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbstractFactory.DynamoDBApiSettings" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamoDB\DynamoDBApiSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactory.AppConfigApiSettings" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>AppConfig\AppConfigApiSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactory.AppConfigConfigurationFactory">
+    <Position X="0.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAACAAAAAAgAAAAAQAAAAAAAAAgQA=</HashCode>
+      <FileName>AppConfigConfigurationFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactory.DynamoDBConfigurationFactory">
+    <Position X="3.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAACAAAAAAgAAAAAQAAAAAAAAAAQA=</HashCode>
+      <FileName>DynamoDBConfigurationFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactory.AppConfigFeedServiceSettings" Collapsed="true">
+    <Position X="7.5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAAAAAAACAAAAAAAQAAAAAAiAA=</HashCode>
+      <FileName>AppConfig\AppConfigFeedServiceSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactory.DynamoDBFeedServiceSettings" Collapsed="true">
+    <Position X="10.25" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAAAAAAACAAAAAAAQAAAAAAiAA=</HashCode>
+      <FileName>DynamoDB\DynamoDBFeedServiceSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="AbstractFactory.IApiSettings" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>IApiSettings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AbstractFactory.IConfigurationFactory">
+    <Position X="2.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAACAAAAAAgAAAAAQAAAAAAAAAAQA=</HashCode>
+      <FileName>IConfigurationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AbstractFactory.IFeedServiceSettings" Collapsed="true">
+    <Position X="9" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAAAAAAACAAAAAAAQAAAAAAiAA=</HashCode>
+      <FileName>IFeedServiceSettings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

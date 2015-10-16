@@ -10,11 +10,14 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
-            // var configFactory = new AppConfigConfigurationFactory();
-            var configFactory = new DynamoDBConfigurationFactory();
+            IConfigurationFactory configFactory = new AppConfigConfigurationFactory();
+            // IConfigurationFactory configFactory = new DynamoDBConfigurationFactory();
 
             IApiSettings apiSettings = configFactory.GetApiSettings();
             IFeedSettings feedSettings = configFactory.GetFeedSettings();
+            IFeedServiceSettings feedServiceSettings = configFactory.GetFeedServiceSettings();
+            IS3PublisherSettings s3PublishSettings = configFactory.GetS3PublisherSettings();
+            IOfflineClientSettings offlineClientSettings = configFactory.GetOfflineClientSettings();
         }
     }
 }
