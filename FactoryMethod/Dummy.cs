@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FactoryMethod
+namespace FactoryMethod.Dummy
 {
-    /*
     public class SyndicationFeedFormatter
     {
     }
@@ -17,5 +16,4 @@ namespace FactoryMethod
     public class Rss20FeedFormatter : SyndicationFeedFormatter
     {
     }
-    */
 }

@@ -46,11 +46,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfigFeedSettings.cs" />
+    <Compile Include="Article.cs" />
+    <Compile Include="ArticleFeedGenerator.cs" />
+    <Compile Include="AtomFeedGenerator.cs" />
     <Compile Include="Dummy.cs" />
-    <Compile Include="FeedFormatterFactory.cs" />
+    <Compile Include="IFeedDataClient.cs" />
+    <Compile Include="IFeedService.cs" />
     <Compile Include="IFeedSettings.cs" />
+    <Compile Include="IPublishService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RareburgArticleFeedService.cs" />
+    <Compile Include="RareburgClient.cs" />
+    <Compile Include="RssFeedGenerator.cs" />
+    <Compile Include="S3PublishService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

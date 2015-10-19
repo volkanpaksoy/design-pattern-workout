@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="FactoryMethod.FeedFormatterFactory">
-    <Position X="6.25" Y="0.5" Width="2.5" />
+  <Class Name="FactoryMethod.ArticleFeedGenerator">
+    <Position X="1.75" Y="0.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
-      <FileName>FeedFormatterFactory.cs</FileName>
+      <HashCode>AAAAAAIAAAAAAAAABAAAAAAAAAAAgAAAgAAAAABACAI=</HashCode>
+      <FileName>ArticleFeedGenerator.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FactoryMethod.AtomFormatterFactory">
-    <Position X="7" Y="2.5" Width="2.5" />
+  <Class Name="FactoryMethod.AtomFeedGenerator">
+    <Position X="0.5" Y="3.75" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
-      <FileName>FeedFormatterFactory.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>AtomFeedGenerator.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FactoryMethod.RssFormatterFactory">
-    <Position X="4.75" Y="2.5" Width="2" />
+  <Class Name="FactoryMethod.RssFeedGenerator">
+    <Position X="3.5" Y="3.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAgAAAAAAAAABAAAA=</HashCode>
-      <FileName>FeedFormatterFactory.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>RssFeedGenerator.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FactoryMethod.SyndicationFeedFormatter" Collapsed="true">
-    <Position X="1.25" Y="0.75" Width="2.25" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Dummy.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="FactoryMethod.Atom10FeedFormatter">
-    <Position X="0.5" Y="2.5" Width="1.75" />
+  <Class Name="FactoryMethod.Dummy.SyndicationFeedFormatter">
+    <Position X="7.75" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Dummy.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FactoryMethod.Rss20FeedFormatter">
-    <Position X="2.5" Y="2.5" Width="1.75" />
+  <Class Name="FactoryMethod.Dummy.Atom10FeedFormatter">
+    <Position X="9" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dummy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryMethod.Dummy.Rss20FeedFormatter">
+    <Position X="6.75" Y="3.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Dummy.cs</FileName>
