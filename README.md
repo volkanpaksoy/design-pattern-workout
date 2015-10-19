@@ -4,5 +4,5 @@ Related blog posts:
 
 * [Strategy Pattern](http://volkanpaksoy.com/archive/2015/10/12/design-patterns-strategy/)
 * [Factory Method](http://volkanpaksoy.com/archive/2015/10/16/design-patterns-factory-method/)
-
+* [Abstract Factory](http://volkanpaksoy.com/archive/2015/10/19/design-patterns-abstract-factory/)
 
